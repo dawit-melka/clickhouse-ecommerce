@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  db-ecommerce:
+    build: .
+    container_name: db-ecommerce
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    volumes:
+      - clickhouse_data:/var/lib/clickhousez
+
+volumes:
+  clickhouse_data:
