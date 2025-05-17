@@ -1,0 +1,26 @@
+order_id,customer_id,return_reason,return_status
+1,1,Defective,Delivered
+7,2,Too Expensive,Not Accepted
+12,3,Too Expensive,Not Accepted
+25,12,Found a Better Price,Not Accepted
+45,11,Defective,Sent
+47,6,Wrong Item,Delivered
+65,31,Not as Expected,Delivered
+72,66,Not as Expected,Delivered
+75,64,Found a Better Price,Not Accepted
+79,29,Found a Better Price,Delivered
+88,76,Size/Fit Issues,Sent
+103,40,Too Expensive,Delivered
+128,48,Found a Better Price,Not Accepted
+131,38,Duplicate Order,Delivered
+133,7,Wrong Item,Not Accepted
+164,89,Too Expensive,Delivered
+177,55,Changed Mind,Not Accepted
+178,104,Wrong Item,Delivered
+185,178,Quality Issues,Delivered
+223,160,Defective,Not Accepted
+246,232,Changed Mind,Not Accepted
+252,23,Not as Expected,Registered
+259,73,Not as Expected,Not Accepted
+270,58,Too Expensive,Received
+276,223,Defective,Sent
